@@ -64,7 +64,7 @@
     <script>
         function analyze() {
             const text = document.getElementById('inputText').value;
-            fetch('(Sol üsste bulunan menüde 2. seçeneği seçerek ve burada da 5050 portuna gittikten sonra arama çubuğundaki urlyi alıp iki noktadan önce parantezleri de silerek buraya yapıştırın):5050/predict', {
+            fetch('(Sol üsste bulunan menüde 2. seçeneği seçerek ve burada da 5050 portuna gittikten sonra arama çubuğundaki urlyi alıp ters slashtan önce parantezleri de silerek buraya yapıştırın)/predict', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ text })
